@@ -5,16 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <section>
-        <div>
-            <img src="" alt="">
+    <section class="site-header">
+        <div class="brand">
+            <img class="brand-logo" src="" alt="">
         </div>
-        <div>
-            <ul>
+        <div class="nav">
+            <ul class="nav-links">
                 <li>About</li>
                 <li>Services</li>
                 <li>Barbers</li>
@@ -23,85 +24,87 @@
                 <li>Contact</li>
             </ul>
         </div>
-        <div>
+        <div class="header-actions">
             <i></i>
-            <button>Book Now</button>
+            <button class="btn btn-primary">Book Now</button>
         </div>
     </section>
 
-    <section>
-        <div>
-            <h1>Crafting Style, <br> <span>Elevating Standards</span> </h1>
-            <p>Brooklyn's premier barbershop where classic <br> craftsmanship meets modern style. Expert barbers, <br>
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Crafting Style, <br> <span class="highlight">Elevating Standards</span> </h1>
+            <p class="hero-text">Brooklyn's premier barbershop where classic <br> craftsmanship meets modern style. Expert barbers, <br>
                 premium products, and an experience you'll look forward to <br> every time.</p>
-            <button>Book Appointment <i></i></button>
-            <button><i></i> Call (555) 741-2580</button>
-            <div><i></i>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">Book Appointment <i></i></button>
+                <button class="btn btn-outline"><i></i> Call (555) 741-2580</button>
+            </div>
+            <div class="open-status"><i class="status-dot"></i>
                 <p>Closed · Opens 10:00 AM</p>
             </div>
         </div>
 
-        <div>
-            <h3>Book Your Appointment</h3>
-            <h4>Quick & easy online booking</h4>
-            <div>
-                <div>
-                    <p>1</p>
-                    <p>Service</p>
+        <div class="booking-card">
+            <h3 class="booking-title">Book Your Appointment</h3>
+            <h4 class="booking-subtitle">Quick & easy online booking</h4>
+            <div class="booking-steps">
+                <div class="step active">
+                    <p class="step-number">1</p>
+                    <p class="step-label">Service</p>
                 </div>
-                <div>
-                    <p>2</p>
-                    <p>Barber</p>
+                <div class="step">
+                    <p class="step-number">2</p>
+                    <p class="step-label">Barber</p>
                 </div>
-                <div>
-                    <p>3</p>
-                    <p>Time</p>
+                <div class="step">
+                    <p class="step-number">3</p>
+                    <p class="step-label">Time</p>
                 </div>
-                <div>
-                    <p>4</p>
-                    <p>Confirm</p>
-                </div>
-            </div>
-            <div>
-                <p>Select a service:</p>
-                <div>
-                    <i></i>
-                    <p><b>Classic haircut</b></p>
-                    <p>30min</p>
-                    <p>$35</p>
-                </div>
-                <div>
-                    <i></i>
-                    <p><b>Classic haircut</b></p>
-                    <p>30min</p>
-                    <p>$35</p>
-                </div>
-                <div>
-                    <i></i>
-                    <p><b>Classic haircut</b></p>
-                    <p>30min</p>
-                    <p>$35</p>
-                </div>
-                <div>
-                    <i></i>
-                    <p><b>Classic haircut</b></p>
-                    <p>30min</p>
-                    <p>$35</p>
-                </div>
-                <div>
-                    <i></i>
-                    <p><b>Classic haircut</b></p>
-                    <p>30min</p>
-                    <p>$35</p>
-                </div>
-                <div>
-                    <i></i>
-                    <p><b>Classic haircut</b></p>
-                    <p>30min</p>
-                    <p>$35</p>
+                <div class="step">
+                    <p class="step-number">4</p>
+                    <p class="step-label">Confirm</p>
                 </div>
             </div>
-            <button>Next Step</button>
+            <div class="service-list">
+                <p class="service-list-label">Select a service:</p>
+                <div class="service-item">
+                    <i class="service-icon"></i>
+                    <p><b>Classic haircut</b></p>
+                    <p>30min</p>
+                    <p>$35</p>
+                </div>
+                <div class="service-item">
+                    <i class="service-icon"></i>
+                    <p><b>Classic haircut</b></p>
+                    <p>30min</p>
+                    <p>$35</p>
+                </div>
+                <div class="service-item">
+                    <i class="service-icon"></i>
+                    <p><b>Classic haircut</b></p>
+                    <p>30min</p>
+                    <p>$35</p>
+                </div>
+                <div class="service-item">
+                    <i class="service-icon"></i>
+                    <p><b>Classic haircut</b></p>
+                    <p>30min</p>
+                    <p>$35</p>
+                </div>
+                <div class="service-item">
+                    <i class="service-icon"></i>
+                    <p><b>Classic haircut</b></p>
+                    <p>30min</p>
+                    <p>$35</p>
+                </div>
+                <div class="service-item">
+                    <i class="service-icon"></i>
+                    <p><b>Classic haircut</b></p>
+                    <p>30min</p>
+                    <p>$35</p>
+                </div>
+            </div>
+            <button class="btn btn-primary btn-block">Next Step</button>
         </div>
     </section>
 
